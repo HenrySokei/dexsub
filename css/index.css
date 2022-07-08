@@ -1,0 +1,152 @@
+body{
+    font-family: 'Montserrat-Black', sans-serif;
+}
+#title{
+    background-color: #6BCB77;
+    color: white;
+}
+
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.container-fluid{
+    padding: 3% 15% 0;
+}
+
+.container-fluidtop{
+    padding: 3% 15% 1%;
+    background-color: #6BCB77;
+}
+
+/*narbar*/
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item{
+    margin: 0 10px;
+}
+
+.nav-link{
+    font-family: 'Montserrat-thin', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.navbar{
+    padding: 0 0 1rem;
+}
+
+/*download button*/
+.btn{
+    margin: 1% 1% 1% 0;
+}
+
+/*title image*/
+/*this code rotates an image
+.title-image{
+    transform:rotate(45deg)
+}*/
+
+.title-image{
+    padding: 0 auto;
+}
+
+.features-image{
+    width: 120px;
+}
+
+#features{
+    text-align: center;
+    margin: 50px auto 5px;
+    padding: 0 7%;
+}
+
+.features-test{
+    width: 50%;
+    margin: 0 auto;
+    color: #8f8f8f;
+}
+
+.features-block{
+    margin: 20px 0;
+}
+
+/*testomies*/
+
+#testomies{
+    text-align: center;
+    background-color: #6BCB77;
+    color: white;
+}
+
+.carousel-item{
+    padding: 7% 15% 7%;
+}
+
+.testomies-image{
+    width: 20%;
+    margin: 20px;
+}
+
+#press{
+    text-align: center;
+}
+
+.press-image{
+    border-radius: 100%;
+    width: 50%;
+    margin: 20px 20px;
+    /*the code above turns it to circle*/
+}
+
+#tag{
+    background-color: #6BCB77;
+    text-align: center;
+    color: white;
+}
+
+#Pricing{
+    text-align: center;
+    padding: 100px;
+}
+
+.button-green{
+    padding: 3% 2%;
+}
+
+@media (max-width: 900px) {
+    #title{
+        text-align: center;
+    }
+}
+
+#cta{
+    background-color: #6BCB77;
+    padding: 7% 15%;
+    color: white;
+    text-align: center;
+}
+
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 3% 5%;
+}
