@@ -136,6 +136,9 @@ h3{
     #title{
         text-align: center;
     }
+    .title-image{
+        width: 300px;
+    }
 }
 
 #cta{
